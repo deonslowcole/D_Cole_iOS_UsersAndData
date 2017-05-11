@@ -13,9 +13,16 @@
 		E32133291EC011CC00B7532C /* DCole_iOS_UsersAndData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E32133271EC011CC00B7532C /* DCole_iOS_UsersAndData.xcdatamodeld */; };
 		E321332B1EC011CC00B7532C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E321332A1EC011CC00B7532C /* Assets.xcassets */; };
 		E321332E1EC011CC00B7532C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E321332C1EC011CC00B7532C /* LaunchScreen.storyboard */; };
+		E32133361EC0143100B7532C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E32133351EC0143100B7532C /* GoogleService-Info.plist */; };
+		E321333C1EC2AC3B00B7532C /* ExpenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E321333B1EC2AC3B00B7532C /* ExpenseViewController.swift */; };
+		E321333E1EC2C38B00B7532C /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E321333D1EC2C38B00B7532C /* FormViewController.swift */; };
+		FB79B9A255D3FD2EF31CF7E9 /* Pods_DCole_iOS_UsersAndData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87C811924B0EAAAB2F083B68 /* Pods_DCole_iOS_UsersAndData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		17EDABCF0A9CCB1E73231803 /* Pods-DCole_iOS_UsersAndData.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DCole_iOS_UsersAndData.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DCole_iOS_UsersAndData/Pods-DCole_iOS_UsersAndData.debug.xcconfig"; sourceTree = "<group>"; };
+		20AF288CF98BA95C751A6658 /* Pods-DCole_iOS_UsersAndData.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DCole_iOS_UsersAndData.release.xcconfig"; path = "Pods/Target Support Files/Pods-DCole_iOS_UsersAndData/Pods-DCole_iOS_UsersAndData.release.xcconfig"; sourceTree = "<group>"; };
+		87C811924B0EAAAB2F083B68 /* Pods_DCole_iOS_UsersAndData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DCole_iOS_UsersAndData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E321331D1EC011CC00B7532C /* DCole_iOS_UsersAndData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DCole_iOS_UsersAndData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E32133201EC011CC00B7532C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E32133221EC011CC00B7532C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +31,9 @@
 		E321332A1EC011CC00B7532C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E321332D1EC011CC00B7532C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E321332F1EC011CC00B7532C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E32133351EC0143100B7532C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E321333B1EC2AC3B00B7532C /* ExpenseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpenseViewController.swift; sourceTree = "<group>"; };
+		E321333D1EC2C38B00B7532C /* FormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB79B9A255D3FD2EF31CF7E9 /* Pods_DCole_iOS_UsersAndData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E9550ADDD5558C5AF5FA9D5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17EDABCF0A9CCB1E73231803 /* Pods-DCole_iOS_UsersAndData.debug.xcconfig */,
+				20AF288CF98BA95C751A6658 /* Pods-DCole_iOS_UsersAndData.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A85233CEDABB2BA1F0344605 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87C811924B0EAAAB2F083B68 /* Pods_DCole_iOS_UsersAndData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E32133141EC011CC00B7532C = {
 			isa = PBXGroup;
 			children = (
 				E321331F1EC011CC00B7532C /* DCole_iOS_UsersAndData */,
 				E321331E1EC011CC00B7532C /* Products */,
+				4E9550ADDD5558C5AF5FA9D5 /* Pods */,
+				A85233CEDABB2BA1F0344605 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +86,7 @@
 		E321331F1EC011CC00B7532C /* DCole_iOS_UsersAndData */ = {
 			isa = PBXGroup;
 			children = (
+				E32133351EC0143100B7532C /* GoogleService-Info.plist */,
 				E32133201EC011CC00B7532C /* AppDelegate.swift */,
 				E32133221EC011CC00B7532C /* ViewController.swift */,
 				E32133241EC011CC00B7532C /* Main.storyboard */,
@@ -63,6 +94,8 @@
 				E321332C1EC011CC00B7532C /* LaunchScreen.storyboard */,
 				E321332F1EC011CC00B7532C /* Info.plist */,
 				E32133271EC011CC00B7532C /* DCole_iOS_UsersAndData.xcdatamodeld */,
+				E321333B1EC2AC3B00B7532C /* ExpenseViewController.swift */,
+				E321333D1EC2C38B00B7532C /* FormViewController.swift */,
 			);
 			path = DCole_iOS_UsersAndData;
 			sourceTree = "<group>";
@@ -74,9 +107,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E32133321EC011CC00B7532C /* Build configuration list for PBXNativeTarget "DCole_iOS_UsersAndData" */;
 			buildPhases = (
+				E5F916019368E9003BE78AED /* [CP] Check Pods Manifest.lock */,
 				E32133191EC011CC00B7532C /* Sources */,
 				E321331A1EC011CC00B7532C /* Frameworks */,
 				E321331B1EC011CC00B7532C /* Resources */,
+				BCE34DB806BBC456D5152FD3 /* [CP] Embed Pods Frameworks */,
+				90D143E5140D4F6D1D729651 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -127,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E321332E1EC011CC00B7532C /* LaunchScreen.storyboard in Resources */,
+				E32133361EC0143100B7532C /* GoogleService-Info.plist in Resources */,
 				E321332B1EC011CC00B7532C /* Assets.xcassets in Resources */,
 				E32133261EC011CC00B7532C /* Main.storyboard in Resources */,
 			);
@@ -134,14 +171,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		90D143E5140D4F6D1D729651 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DCole_iOS_UsersAndData/Pods-DCole_iOS_UsersAndData-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCE34DB806BBC456D5152FD3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DCole_iOS_UsersAndData/Pods-DCole_iOS_UsersAndData-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5F916019368E9003BE78AED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E32133191EC011CC00B7532C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E32133231EC011CC00B7532C /* ViewController.swift in Sources */,
+				E321333E1EC2C38B00B7532C /* FormViewController.swift in Sources */,
 				E32133211EC011CC00B7532C /* AppDelegate.swift in Sources */,
 				E32133291EC011CC00B7532C /* DCole_iOS_UsersAndData.xcdatamodeld in Sources */,
+				E321333C1EC2AC3B00B7532C /* ExpenseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +349,11 @@
 		};
 		E32133331EC011CC00B7532C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17EDABCF0A9CCB1E73231803 /* Pods-DCole_iOS_UsersAndData.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DCole_iOS_UsersAndData/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cole.deon.DCole-iOS-UsersAndData";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -274,9 +363,11 @@
 		};
 		E32133341EC011CC00B7532C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20AF288CF98BA95C751A6658 /* Pods-DCole_iOS_UsersAndData.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DCole_iOS_UsersAndData/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cole.deon.DCole-iOS-UsersAndData";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -303,6 +394,7 @@
 				E32133341EC011CC00B7532C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
